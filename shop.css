@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+ background: #d3d3d3;
+ background: linear-gradient(to buttom #d3d3d3,#0000);
+}
+.all{
+    width: auto;
+    height: auto;
+   
+}
+.navbar{
+    background-color: cornflowerblue; height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    height: 100px; width: 300px;
+}
+.info{display: flex;
+    justify-content:right;
+    align-items: center;
+    margin: 10px;
+    color:black;
+}
+.favo{
+    border-radius: 40px;
+    border: solid cornflowerblue 2px;
+    width: 60px;
+    margin-left: 40px;
+    font-weight: 100;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+.favo:hover{
+    background-color: royalblue;
+}
+
+.tot{
+    padding-top: 20px;
+    margin-left: 20px;
+    height: 60px;
+    position: relative;
+}
+.totbar{
+    background-color: wheat;
+    width: 100%;
+}
+.items{
+    width: 1100px;
+    height: 1100px;
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.drone{
+    background-color:wheat;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: dimgray 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.drone:hover{
+    background-color: tan;
+}
+.xbox{
+    background-color:wheat;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: dimgray 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.xbox:hover{
+    background-color: tan;
+}
+.vibox{
+    background-color:wheat;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: dimgray 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vibox:hover{
+    background-color: tan;
+}
+.glass{
+    background-color:wheat;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: dimgray 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.glass:hover{
+    background-color: tan;
+}
+.ps5{
+    background-color:wheat;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: dimgray 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ps5:hover{
+    background-color: tan;
+}
+.gopro{
+    background-color:wheat;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: dimgray 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gopro:hover{
+    background-color: tan;
+}
+.btns{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.foot{
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100px;
+    box-shadow: dimgray 0 0 20px;
+}
+.plsbutton{
+    width: 20px;
+}
+.minsbutton{
+    width: 20px;
+}
